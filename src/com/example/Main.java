@@ -15,5 +15,20 @@ public class Main {
         double numDouble = 32.12345678;
         // numDouble 변수에 실제 저장된 값 : 3.212345567799999979342828737572E1
         System.out.println(numDouble);
+
+        System.out.println("Hello Constant");
+        int num = 100;
+        System.out.println(num);
+        // 심볼릭 상수
+        final int num1 = 21;
+        System.out.println(num1);
+        // float 작은 범위의 실수
+        final float num2 = 21.1234F;
+        System.out.println(num2);
+        // double 더 많은 표현 범위의 실수
+        final double num3 = 21.1234;
+        System.out.println(num3);
+        final long num4= 210000000000L;
+        System.out.println(num4);
     }
 }
