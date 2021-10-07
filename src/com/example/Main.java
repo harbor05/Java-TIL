@@ -30,5 +30,19 @@ public class Main {
         System.out.println(num3);
         final long num4= 210000000000L;
         System.out.println(num4);
+
+        // 형 변환
+        byte byteNum = 32;
+        short shortNum = byteNum;
+        System.out.println(shortNum);
+
+        int intNum = 26;
+        double doubleNum = intNum;
+        System.out.println(doubleNum);
+
+        // 명시적 형변환
+        double doubleNum2 = 32.123456781234;
+        float floatNum = (float)doubleNum2;
+        System.out.println(floatNum);
     }
 }
